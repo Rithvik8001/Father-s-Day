@@ -66,13 +66,11 @@ h1 {
 h1 span {
   background: linear-gradient(
     to right,
-    #ff0000,
+
     #ff7f00,
-    #4b0082,
-    #8b00ff,
-    #0000ff,
     #00ff00,
-    #ffff00
+    #ffff00,
+    #8b00ff
   );
   background-clip: padding-box;
   -webkit-background-clip: text;
