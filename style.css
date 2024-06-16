@@ -152,3 +152,41 @@ button:hover {
     opacity: 0;
   }
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  button {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+
+  #message {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  #message {
+    font-size: 1.2rem;
+  }
+}
